@@ -1,0 +1,568 @@
+:root {
+    --blue-presto: #22b8fb;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.bg-personal {
+    background-color: var(--blue-presto);
+}
+
+.text-personal {
+    color: black;
+    font-size: larger;
+
+}
+
+.text-header {
+    text-transform: uppercase;
+}
+
+
+
+
+/* classi di ciro */
+.mx-width {
+    max-width: 1200px;
+}
+
+.blue-bg {
+    background-color: var(--blue-presto);
+}
+
+.foot-line {
+    width: 60px;
+    background-color: var(--blue-presto);
+    height: 2px
+}
+
+.icon-size {
+    font-size: 2em;
+}
+
+.tx-blue {
+    color: var(--blue-presto);
+}
+.tx-black{
+    color: black;
+}
+
+.tx-blue-trasparent {
+    background-color: #7fd6ff6d;
+}
+
+.hero-txt {
+    color: var(--blue-presto);
+
+}
+
+.bg-grey {
+    background-color: #d1f1ffd0;
+    color: rgb(54, 54, 54);
+}
+
+.p-6 {
+    border: 1px solid #ced4da;
+    padding: 6px;
+}
+
+.btn-presto {
+    color: white;
+    background-color: var(--blue-presto);
+}
+
+.btn-presto:hover {
+    color: white;
+    background-color: #00a0ea;
+}
+
+.btn-header {
+    border: 2px solid transparent !important;
+}
+
+.btn-header:hover {
+    border: 2px solid var(--blue-presto) !important;
+}
+
+#lang-drop {
+    --bs-dropdown-min-width: 6rem;
+}
+
+.dropdown-presto:hover {
+    color: var(--blue-presto);
+    background-color: rgba(237, 237, 237, 0.774);
+}
+
+.dropdown-presto>form>button {
+    border: none;
+    background: transparent;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0rem;
+}
+
+.annunce-title {
+    font-family: Montserrat;
+    border-radius: 80px 0px 0px 80px;
+    background: -moz-linear-gradient(left, var(--blue-presto) 60%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, var(--blue-presto) 60%, #FFFFFF 100%);
+    background: linear-gradient(to right, var(--blue-presto) 60%, #FFFFFF 100%);
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.description {
+    background-color: #e2e0e0;
+}
+
+.carousel-hero .carousel-item img {
+    object-fit: scale-down;
+    object-position: center;
+    overflow: hidden;
+    height: 400px;
+    background-color: white;
+}
+
+.hero-img {
+    width: 192px;
+}
+
+.card-presto:hover h5 {
+    text-decoration: underline;
+    color: gray;
+}
+
+.card-presto {
+    color: black;
+    text-decoration: none;
+}
+
+.shopping-lady {
+    height: 42%;
+    width: 72%;
+    border-radius: 32px;
+}
+
+.category-empty {
+    height: 90%;
+    width: 90%;
+    border-radius: 32px;
+}
+
+.search-empty {
+    height: 90%;
+    width: 70%;
+    border-radius: 32px;
+}
+
+.register-side {
+    height: 90%;
+    width: 60%;
+    border-radius: 32px 0px 0px 32px;
+}
+
+.card-title {
+    text-shadow: 2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, -2px -2px 0 #ffffff, 2px 0px 0 #ffffff, 0px 2px 0 #ffffff, -2px 0px 0 #ffffff, 0px -2px 0 #ffffff, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+.category-card {
+    width: 190px;
+    transition: transform .3s ease-in-out;
+}
+
+.category-Motori:hover {
+    background-image: url("../img-background/Motori.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Informatica:hover {
+    background-image: url("../img-background/Informatica.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Elettrodomestici:hover {
+    background-image: url("../img-background/Elettrodomestici.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Libri:hover {
+    background-image: url("../img-background/Libri.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Giochi:hover {
+    background-image: url("../img-background/Giochi.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Sport:hover {
+    background-image: url("../img-background/Sport.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Telefoni:hover {
+    background-image: url("../img-background/Telefoni.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Immobili:hover {
+    background-image: url("../img-background/Immobili.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Arredamento:hover {
+    background-image: url("../img-background/Arredamento.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+.category-Animali:hover {
+    background-image: url("../img-background/Animali.gif");
+    background-position: center;
+    background-size: 210px 105px;
+    transform: scale(1.5) !important;
+    z-index: 80;
+}
+
+
+
+/* The sidepanel menu */
+.sidepanel {
+    height: 100%;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #C0EBFF;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    color: black;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    background: -moz-linear-gradient(-45deg, var(--blue-presto) 0%, #C0EBFF 30%);
+    background: -webkit-linear-gradient(-45deg, var(--blue-presto) 0%, #C0EBFF 30%);
+    background: linear-gradient(135deg, var(--blue-presto) 0%, #C0EBFF 30%);
+    -webkit-box-shadow: inset -5px -5px 10px 5px rgba(0,0,0,0.24); 
+    box-shadow: inset -5px -5px 10px 5px rgba(0,0,0,0.24);
+}
+.dark-theme3 {
+    height: 100%;/* Specify a height */
+    width: 0;/* 0 width - change this with JavaScript */
+    position: fixed;/* Stay in place */
+    z-index: 1;
+    color: var(--blue-presto) !important;
+    top: 0;/* Stay on top */
+    right: 0;
+    background-color: #1d2a35 !important;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    -webkit-box-shadow: inset -5px -5px 10px 5px rgba(0,0,0,0.24); 
+    box-shadow: inset -5px -5px 10px 5px rgba(0,0,0,0.24);
+    --bs-link-hover-color: #C0EBFF;
+}
+
+
+.dark-theme3 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* The sidepanel links */
+.nav-member {
+    text-align: end;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: inherit;
+    display: block;
+    transition: 0.3s;
+    border-right: 5px solid var(--blue-presto);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: var(--blue-presto);
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.btn-lingua {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.nav-member>form>button {
+    background: transparent;
+    border: none;
+}
+
+/* Anteprima foto in pubblicazione */
+.img-preview {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-img-top{
+object-position: center;
+object-fit: contain !important;
+background-color: #1d2a35;
+}
+
+.bg-arrow {
+    background-color: rgba(0, 0, 0, 0.100);
+}
+
+#myBtn2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+
+
+
+
+/* classi nuova card */
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+
+.card .backgroundEffect {
+    bottom: 0;
+    height: 0px;
+    width: 100%
+}
+
+.card:hover {
+    color: #fff !important;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: var(--blue-presto);
+    animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+}
+
+.card .pic {
+    position: relative
+}
+
+.card .pic img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover
+}
+
+.card .date {
+    background-color: var(--blue-presto);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: all ease;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.card .text-muted {
+    font-size: 12px
+}
+
+.card:hover .text-muted {
+    color: #fff !important
+}
+
+.card .content {
+    padding: 0 20px
+}
+
+.card:hover .content .btn {
+    background: #fff;
+    color: var(--blue-presto);
+    box-shadow: #0000001a 0px 3px 5px
+}
+
+.card .content .foot .admin {
+    color: #1b9ce3;
+    font-size: 12px
+}
+
+.card:hover .content .foot .admin {
+    color: #fff
+}
+
+/* pagination */
+.active>.page-link {
+    z-index: 3;
+
+    --bs-pagination-active-bg: var(--blue-presto);
+    --bs-pagination-active-border-color: var(--blue-presto);
+}
+
+.page-link {
+    --bs-pagination-color: var(--blue-presto);
+}
+
+.form-check-input:checked {
+    background-color: var(--blue-presto);
+    border-color: var(--blue-presto);
+}
+
+.filter-col {
+    border-left: 5px solid var(--blue-presto);
+}
+
+.dark-theme {
+    color: var(--blue-presto) !important;
+    background-color: #202124 !important;
+    --bs-dropdown-link-color:var(--blue-presto);
+}
+.bg-footer{
+    background-color: #ECEFF1;
+}
+.dark-theme2{
+    color: var(--blue-presto) !important;
+    background-color: #1d2a35 !important;
+    --bs-list-group-bg:#1d2a35;
+    --bs-list-group-color:var(--blue-presto);
+}
+/* classi del Profilo, Mattia */
+.Text-Personal {
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.dark-theme4 {
+    color: var(--blue-presto) !important;
+    background-color: #202124 !important;
+    border-color: #4c5058!important;
+}
+
+.col-tags{
+    border-left: 5px solid var(--blue-presto);
+}
+.profile-element-presto {
+    border-left: 5px solid var(--blue-presto) !important;
+}
+.profile-element-presto:hover {
+    color: var(--blue-presto);
+    background-color: rgba(237, 237, 237, 0.564);
+}
+.info-container{
+    width: 70%;
+}
